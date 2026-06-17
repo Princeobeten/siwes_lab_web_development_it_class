@@ -1,0 +1,173 @@
+body {
+  background-color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100vh;
+  margin-top: -40px;
+}
+
+.hero-left {
+  height: auto;
+  padding: 20px;
+}
+
+.hero-left p {
+  margin-bottom: 30px;
+}
+
+.hero-right {
+  height: auto;
+  width: 50%;
+}
+
+.hero-right img {
+  width: 100%;
+  /* height: 100vh; */
+
+  /* width: 500px; */
+  height: 500px;
+
+  border-radius: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #deb6ff;
+  border-radius: 50px;
+  color: white;
+}
+
+.cta-buttons .primary-button:hover {
+  background-color: #cfa0e8;
+  cursor: pointer;
+}
+
+.outline-button {
+  border: 1px solid gray;
+  padding: 10px 30px;
+  background-color: transparent;
+  border-radius: 50px;
+  color: grey;
+}
+
+.outline-button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+
+.hero-left h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 50px 20px;
+  gap: 30px;
+}
+
+.about-left, .about-right {
+  width: 50%;
+}
+
+.about-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.about-right h3 {
+  font-size: 2em;
+  max-width: 500px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.secondary-button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #eee;
+  border-radius: 50px;
+  color: #333;
+}
+
+.secondary-button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.secondary-button:active {
+  background-color: hsl(0, 1%, 69%)
+}
+
+.about-card {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.about-card-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  width: auto;
+  height: 150px;
+}
+
+.about-card-item h4 {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-card-item p {
+  font-size: 0.6em;
+  color: #555;
+}
